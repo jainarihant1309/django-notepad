@@ -1,4 +1,4 @@
-# 📝 Django Notepad
+# 📝 Django Notepad README.txt
 
 A simple Django CRUD application for managing notes.
 
