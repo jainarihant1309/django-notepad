@@ -1,16 +1,18 @@
-# Virtual Environment
-venv/
-
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
+*$py.class
 
-# Database
-db.sqlite3
-
-# Environment Variables
+# Virtual Environment
+venv/
 .env
+
+# Django
+db.sqlite3
+media/
+
+# Static Files
+staticfiles/
 
 # VS Code
 .vscode/
@@ -21,5 +23,8 @@ db.sqlite3
 # macOS
 .DS_Store
 
-# Logs
+# Git
+.gitignore
+
+# Docker
 *.log
