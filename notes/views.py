@@ -59,3 +59,14 @@ def edit_note(request, id):
             "note": note
         }
     )
+
+
+# 1. Unused Code Smell (This function is never used)
+def calculate_something_useless(a, b):
+    print() # Empty print is a code smell
+    return a
+
+# 2. Dead Code Smell (The print line can never run)
+def check_status_badly():
+    return True
+    print("This line will never execute!") 
