@@ -93,6 +93,3 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-# Isko hata na hai 
-SECRET_AWS_KEY = "AKIAIOSFODNN7EXAMPLESecretKey" 
-
